@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      uri: http://127.0.0.1:12000  #連接的springCloudConfig服務端地址
+      name: user  #前綴
+      profile: dev #後綴
+      label: main
